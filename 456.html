@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <form>
+            <lable>create a new account</lable><br><br>
+            <lable for="email">EMAIL ID</lable><br>
+            <input type="text"  id="email" name="email" placeholder="enter a email id"><br><br>
+            <label for="pword">PASSWORD</label><br>
+            <input type="text" id="pword" name="pword" placeholder="enter a password"><br><br>
+        </form>
+
+        <form action="action_page.js">
+            <input type="submit" value="submit" onclick="validate();">
+            
+           <script>
+               function validate() {
+                   var email= document.getElementById("email"). value;
+                   var password= document.getElementById("password"). value;
+        
+                   if(emailid==""  || emailid==" ") {
+                       alert("please enter email id");
+                   }
+                
+                
+                   else if(password=="" || password==" ") {
+                       alert("please enter a password");
+                   }
+                   else{
+                       alert("success")
+                   }
+               }
+           </script>
+           </form><BR>
+
+            <html>
+           <body>
+               <form>
+            
+            <a href="http://127.0.0.1:5500/homework2.html/24-2-2022.html">CREATE A NEW ACCOUNT</a>     
+            </body>
+            </html>
+
+
+        
+        
